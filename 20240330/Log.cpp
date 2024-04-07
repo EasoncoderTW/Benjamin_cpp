@@ -54,7 +54,7 @@ void Log::add(string s)
 void Log::save()
 {
     ofstream ofile;// output file stream 檔案輸出串流
-    ofile.open(filename,ios::out); // 開檔
+    ofile.open(filename,ios::app); // 開檔 "append mode"
     for(int i =0;i<log_count;i++)
     {
         ofile << log_buffer[i] << endl;
