@@ -37,9 +37,6 @@ class Bank:public Account // Bank 將所有的 Acount 屬性與功能都繼承�
         };
 };
 
-/*
-1. overloading 
-2. operator overloading
-*/
+
 
 
